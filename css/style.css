@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+:root{
+	--color-general: #6f808a;
+	--color-morado: #6044df;
+	--color-header: #6044df;
+	--color-negro: #1d2124;
+	--color-hover: #705cf4;
+	--color-input: #eff4fa;
+	--color-letra-input: #1d2124;
+}
+
+@font-face{
+	font-family: "Protest Revolution";
+	src:url("../fonts/ProtestRevolution-Regular.ttf") format("TrueType");
+}
+
+body {
+    font-family: "Poppins", sans-serif; /*aqui para que salga protest deberiamos ponerlo como "Protest Revolution", 
+	pero no lo puse para seguir la guia vidual de la pagina orginal...lo dejo para saber como hacerlo despues!*/
+    font-size: 16px;
+    color: var(--color-general);
+	line-height: 1.7;
+}
+
+h2,h3,h4,h5,h6{
+	color: var(--color-negro);
+}
+
+header{
+	background-color:var(--color-header);
+	padding: 20px 0;
+}
+
+#hero{
+	background-image:url("../img/bg-home.png");
+	background-position: top center;
+	background-size: contain;
+	color:#FFFFFF;
+	padding: 60px 0 5%;
+}
+
+#hero h1{
+	font-weight: 700;
+	font-size: 45px;
+}
+
+#hero p{
+	font-size: 20px;
+	font-weight: 400;
+	margin: 20px;
+	
+}
+
+.btn-karma{
+	background-color: var(--color-morado);
+	color: #FFFFFF;
+	border: 2px solid #f2f2f2;
+	padding: 20px 40px;
+	border-radius: 10px;
+	font-weight: 600; 
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+.btn-karma:hover{
+	background-color: #705cf4;
+	border-color: #705cf4;
+	color: #FEFEFE;
+}
+
+#hero .btn-dark{
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+#hero .btn-dark:hover{
+	background-color: #705cf4;
+	border-color: #705cf4;
+}
+
+
+.section{
+	padding: 5% 0;
+}
+
+#pagos img{
+	opacity: 0.4;
+}
+
+#pagos img:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+#pagos{
+	border-bottom: #757575 solid 1px;
+}
+
+.titulos{
+	font-weight: 700;
+	font-size: 50px;
+	color: var(--color-negro);
+}
+
+.ps-5{
+	padding-left: 60px !important;
+}
+
+#solution ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+#solution ul a{
+	color: var(--color-general);
+	text-decoration: none;
+}
+
+.btn-nav{
+	border: 2px solid #FFFFFF;
+	padding: 15px 30px !important;
+	border-radius: 10px;
+	
+}
+
+.btn-nav:hover{
+	background-color: var(--color-hover);
+	
+}
+
+#hero-tile{
+	background-image: url("../img/bg-home.png");
+	background-size: cover;
+	background-position: top center;
+	padding: 10% 0;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#hero-tile h1{
+	font-size: 55px;
+	font-weight: 700;
+}
+
+.icon-contacto{
+	font-size: 70px;
+	background-color: #FFFFFF;
+	color: var(--color-morado);
+	box-shadow: 0px 0px 20px 7px #ddd;
+	border-radius: 100%;
+	width: 130px;
+	height: 130px;
+	text-align: center;
+	line-height: 130px;
+	
+}
+
+#contacto h3{
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+
+.forms{
+	box-shadow: 0px 0px 30px 5px #ddd;
+	border-radius: 10px;
+	padding: 40px 25px;
+}
+
+.form-control{
+	background-color: var(--color-input);
+	border: none;
+	padding: 20px 20px;
+}
+
+.form-control::placeholder{
+	color: var(--color-letra-input);
+}
+
+#contacto .titulos{
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+footer{
+	background-image: url("../img/bg-home.png");
+	padding: 5% 0;
+	color: #FFFFFF;
+}
+
+footer h5{
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+
+footer a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+footer a:hover{
+	color: #ccc;
+}
+
+footer ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+footer li{
+	margin-bottom: 10px;
+}
