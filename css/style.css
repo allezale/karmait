@@ -8,6 +8,7 @@
 	--color-hover: #705cf4;
 	--color-input: #eff4fa;
 	--color-letra-input: #1d2124;
+	--fondo-azul:#f5f9ff;
 }
 
 @font-face{
@@ -103,6 +104,13 @@ header{
 	color: var(--color-negro);
 }
 
+.subtitulos{
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: center;
+	margin-top: 25px;
+	
+}
 .ps-5{
 	padding-left: 60px !important;
 }
@@ -214,4 +222,37 @@ footer ul{
 
 footer li{
 	margin-bottom: 10px;
+}
+
+
+#client{
+	background-color: var(--fondo-azul);
+}
+
+.testimonial{
+	background-color: #FFFFFF;
+	padding: 20px 35px;
+	transition: all 0.4s ease-in-out
+}
+
+.testimonial img{
+	width: 100px !important;
+	border-radius: 100%;
+	margin: auto;
+	margin-top: -80px;
+	margin-bottom: 30px;
+}
+
+.testimonial h4{
+	text-align: end;
+	font-size: 18px;
+}
+
+#client .owl-stage-outer{
+ padding-top: 80px;
+}
+
+.testimonial:hover{
+	transform: translateY(-20px);
+	transition: all 0.3s ease-in-out;	
 }
